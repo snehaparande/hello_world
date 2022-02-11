@@ -1,5 +1,4 @@
-#! /bin/bash
-
-person_to_greet=$1
-
-echo "$person_to_greet"
+function greet () {
+  person_to_greet=$1
+  echo "hello $person_to_greet"
+}
